@@ -22,7 +22,7 @@ def user_input_feature():
 
     # Convert to encoded values
     gender_code = 1 if gender == "Male" else 0
-    embarked_map = {"C": 0, "Q": 1, "S": 2}
+    embarked_map = {"Cherbourg": 0, "Queenstown": 1, "Southampton": 2}
     embarked_code = embarked_map[embarked]
 
     data = {
