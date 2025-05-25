@@ -16,7 +16,7 @@ def user_input_feature():
     age = st.sidebar.slider("Age", 1, 80, 25)
     gender = st.sidebar.selectbox("Gender", ["Female", "Male"])
     pclass = st.sidebar.selectbox("Passenger Class", [1, 2, 3])
-    embarked = st.sidebar.selectbox("Embarked", ["C", "S", "Q"])
+    embarked = st.sidebar.selectbox("Embarked", ["Cherbourg", "Southampton", "Queenstown"])
     sibsp = st.sidebar.slider("Number of Siblings/Spouses", 0, 5, 0)
     parch = st.sidebar.slider("Number of Parents/Children", 0, 5, 0)
 
